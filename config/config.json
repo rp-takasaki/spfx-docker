@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "gritbook-doc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gritbookDoc/GritbookDocWebPart.js",
+          "manifest": "./src/webparts/gritbookDoc/GritbookDocWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GritbookDocWebPartStrings": "lib/webparts/gritbookDoc/loc/{locale}.js"
+  }
+}

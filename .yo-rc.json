@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "packageManager": "yarn",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "gritbook",
+    "libraryId": "4fa5657d-b5f5-4ca5-a318-3aa308d0fb28",
+    "environment": "spo",
+    "solutionName": "gritbook",
+    "solutionShortDescription": "gritbook description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gritbook-client-side-solution",
+    "id": "4fa5657d-b5f5-4ca5-a318-3aa308d0fb28",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "gritbook description"
+      },
+      "longDescription": {
+        "default": "gritbook description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gritbook Feature",
+        "description": "The feature that activates elements of the gritbook solution.",
+        "id": "c5887de3-1265-4d6a-b86c-e9e189b7cf65",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gritbook.sppkg"
+  }
+}
